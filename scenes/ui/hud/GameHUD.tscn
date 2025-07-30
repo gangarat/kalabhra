@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://duc0x6qx6pu6p"]
+
+[sub_resource type="Resource" id="Resource_uoyn2"]
+metadata/__load_path__ = "res://scripts/ui/GameHUDController.gd"
+
+[node name="GameHUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = SubResource("Resource_uoyn2")
+
+[node name="TopBar" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 60.0
+
+[node name="ProgressContainer" type="VBoxContainer" parent="TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ProgressLabel" type="Label" parent="TopBar/ProgressContainer"]
+layout_mode = 2
+text = "PROGRESS_LABEL"
+
+[node name="ProgressBar" type="ProgressBar" parent="TopBar/ProgressContainer"]
+layout_mode = 2
+
+[node name="MenuButton" type="Button" parent="TopBar"]
+layout_mode = 2
+text = "MENU_BUTTON"
+
+[node name="BottomBar" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -60.0
+
+[node name="ObjectiveLabel" type="Label" parent="BottomBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "CURRENT_OBJECTIVE"
+
+[node name="InteractionHint" type="Label" parent="BottomBar"]
+layout_mode = 2
+text = "INTERACTION_HINT"
+
+[connection signal="pressed" from="TopBar/MenuButton" to="." method="_on_menu_button_pressed"]

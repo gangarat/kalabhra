@@ -1,0 +1,34 @@
+{
+	"music": {
+		"main_menu": "res://assets/audio/music/main_menu_theme.ogg",
+		"sanctuary_ambient": "res://assets/audio/music/sanctuary_ambient.ogg",
+		"exploration": "res://assets/audio/music/exploration_theme.ogg",
+		"discovery": "res://assets/audio/music/discovery_theme.ogg",
+		"assessment": "res://assets/audio/music/assessment_theme.ogg",
+		"victory": "res://assets/audio/music/victory_theme.ogg"
+	},
+	"sfx": {
+		"button_click": "res://assets/audio/sfx/ui_button_click.wav",
+		"button_hover": "res://assets/audio/sfx/ui_button_hover.wav",
+		"footstep_stone": "res://assets/audio/sfx/footstep_stone.wav",
+		"footstep_wood": "res://assets/audio/sfx/footstep_wood.wav",
+		"door_open": "res://assets/audio/sfx/door_open.wav",
+		"door_close": "res://assets/audio/sfx/door_close.wav",
+		"item_pickup": "res://assets/audio/sfx/item_pickup.wav",
+		"puzzle_solve": "res://assets/audio/sfx/puzzle_solve.wav",
+		"notification": "res://assets/audio/sfx/notification.wav",
+		"error": "res://assets/audio/sfx/error.wav",
+		"success": "res://assets/audio/sfx/success.wav"
+	},
+	"voice": {
+		"narrator_intro": "res://assets/audio/voice/narrator_intro.ogg",
+		"tutorial_welcome": "res://assets/audio/voice/tutorial_welcome.ogg",
+		"objective_complete": "res://assets/audio/voice/objective_complete.ogg"
+	},
+	"ambient": {
+		"sanctuary_atmosphere": "res://assets/audio/ambient/sanctuary_atmosphere.ogg",
+		"wind_gentle": "res://assets/audio/ambient/wind_gentle.ogg",
+		"water_dripping": "res://assets/audio/ambient/water_dripping.ogg",
+		"mystical_hum": "res://assets/audio/ambient/mystical_hum.ogg"
+	}
+}

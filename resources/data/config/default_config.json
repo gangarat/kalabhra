@@ -1,0 +1,51 @@
+{
+	"game": {
+		"master_volume": 1.0,
+		"music_volume": 0.8,
+		"sfx_volume": 1.0,
+		"voice_volume": 1.0,
+		"language": "en",
+		"auto_save": true,
+		"difficulty": "normal",
+		"subtitles": true,
+		"colorblind_support": false
+	},
+	"educational": {
+		"assessment_mode": "adaptive",
+		"hint_frequency": "normal",
+		"progress_tracking": true,
+		"detailed_feedback": true,
+		"time_limits": true,
+		"accessibility_mode": false,
+		"learning_style": "visual",
+		"difficulty_adaptation": true,
+		"show_learning_objectives": true,
+		"enable_peer_comparison": false
+	},
+	"performance": {
+		"render_quality": "medium",
+		"shadow_quality": "medium",
+		"texture_quality": "high",
+		"anti_aliasing": true,
+		"vsync": true,
+		"target_fps": 60,
+		"memory_optimization": true,
+		"texture_streaming": true,
+		"level_of_detail": true,
+		"particle_quality": "medium"
+	},
+	"user": {
+		"first_time": true,
+		"tutorial_completed": false,
+		"last_scene": "",
+		"control_scheme": "keyboard_mouse",
+		"player_name": "",
+		"avatar_customization": {},
+		"accessibility_options": {
+			"high_contrast": false,
+			"large_text": false,
+			"reduced_motion": false,
+			"screen_reader": false
+		}
+	}
+}

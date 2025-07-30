@@ -1,0 +1,104 @@
+{
+	"lesson_id": "introduction",
+	"title": "Welcome to Kalabhra",
+	"description": "An introduction to the ancient sanctuary and its mysteries",
+	"learning_objectives": [
+		"Understand the historical context of Kalabhra",
+		"Learn basic navigation and interaction",
+		"Identify key architectural features",
+		"Recognize cultural symbols and their meanings"
+	],
+	"duration_minutes": 15,
+	"difficulty": "beginner",
+	"prerequisites": [],
+	"content": {
+		"introduction": {
+			"text": "Welcome to the ancient sanctuary of Kalabhra, a place where history, culture, and learning converge.",
+			"voice_clip": "narrator_intro",
+			"duration": 10
+		},
+		"objectives": [
+			{
+				"id": "explore_main_hall",
+				"title": "Explore the Main Hall",
+				"description": "Walk around the main hall and observe the architectural details",
+				"type": "exploration",
+				"completion_criteria": {
+					"areas_visited": ["main_hall_center", "main_hall_east", "main_hall_west"],
+					"time_spent": 60
+				}
+			},
+			{
+				"id": "identify_symbols",
+				"title": "Identify Cultural Symbols",
+				"description": "Find and interact with three cultural symbols in the hall",
+				"type": "interaction",
+				"completion_criteria": {
+					"interactions": ["symbol_sun", "symbol_moon", "symbol_tree"],
+					"correct_identifications": 3
+				}
+			}
+		],
+		"assessment": {
+			"type": "quiz",
+			"questions": [
+				{
+					"id": "q1",
+					"type": "multiple_choice",
+					"question": "What is the primary architectural style of Kalabhra?",
+					"options": [
+						"Gothic",
+						"Ancient Mediterranean",
+						"Modern",
+						"Art Deco"
+					],
+					"correct_answer": 1,
+					"explanation": "Kalabhra features Ancient Mediterranean architecture with characteristic columns and stone work."
+				},
+				{
+					"id": "q2",
+					"type": "true_false",
+					"question": "The symbols in Kalabhra represent natural elements.",
+					"correct_answer": true,
+					"explanation": "The symbols of sun, moon, and tree all represent natural elements important to the ancient culture."
+				}
+			]
+		}
+	},
+	"resources": {
+		"images": [
+			"res://assets/textures/educational/kalabhra_overview.png",
+			"res://assets/textures/educational/architectural_details.png"
+		],
+		"audio": [
+			"res://assets/audio/voice/narrator_intro.ogg"
+		],
+		"models": [
+			"res://assets/models/educational/symbol_examples.glb"
+		]
+	},
+	"hints": {
+		"explore_main_hall": [
+			"Try walking to different areas of the hall",
+			"Look for architectural details like columns and carvings",
+			"Take your time to observe the environment"
+		],
+		"identify_symbols": [
+			"Look for carved symbols on walls and pillars",
+			"Symbols often represent natural elements",
+			"Use the interaction key when you find a symbol"
+		]
+	},
+	"extensions": {
+		"advanced_activities": [
+			"Research the historical context of Mediterranean sanctuaries",
+			"Compare Kalabhra's symbols with other ancient cultures",
+			"Create your own cultural symbol design"
+		],
+		"related_lessons": [
+			"ancient_architecture",
+			"cultural_symbols",
+			"mediterranean_history"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqxvn8j7qkr2w"]
+
+[ext_resource type="Script" path="res://scenes/examples/InteractiveElementsDemo.gd" id="1_2k3l4"]
+
+[node name="InteractiveElementsDemo" type="Node3D"]
+script = ExtResource("1_2k3l4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 8)
+fov = 60.0
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 0, 10, 5)
+light_energy = 1.0
+shadow_enabled = true
+
+[node name="Ground" type="StaticBody3D" parent="Environment"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/Ground"]
+mesh = SubResource("PlaneMesh_1k2j3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Ground"]
+shape = SubResource("BoxShape3D_4m5n6")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_1k2j3"]
+size = Vector2(20, 20)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4m5n6"]
+size = Vector3(20, 0.1, 20)
